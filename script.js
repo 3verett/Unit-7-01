@@ -10,7 +10,7 @@ function randomizer () {
 
   // Generates a random number from 1 - 6.
   randomNumber = Math.random() * 6 + 1
-  randomNumber = parseInt randomNumber)
+  randomNumber = parseInt(randomNumber)
 
   // Checks to see if users guess was correct.
   if (userGuess === randomNumber) {
