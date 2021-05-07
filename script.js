@@ -6,11 +6,11 @@ let userGuess = 0
 function randomizer () {
   // Gets the number typed by user and converts to an integer.
   userGuess = document.getElementById('input').value
-  userGuess = parseInt (userGuess)
+  userGuess = parseInt(userGuess)
 
   // Generates a random number from 1 - 6.
-  randomNumber = Math.random () * 6 + 1
-  randomNumber = parseInt (randomNumber)
+  randomNumber = Math.random() * 6 + 1
+  randomNumber = parseInt randomNumber)
 
   // Checks to see if users guess was correct.
   if (userGuess === randomNumber) {
