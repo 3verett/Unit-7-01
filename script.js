@@ -13,7 +13,8 @@ function randomizer () {
   randomNumber = parseInt(randomNumber)
 
   // Checks to see if users guess was correct.
-  if (userGuess === randomNumber) {
+  if (userGuess === randomNumber) 
+  {
     // If the user was correct then it will display "Incredible! Good job."
     document.getElementById('answer').innerHTML = 'Incredible! Good job.'
   }
